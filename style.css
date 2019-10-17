@@ -1,0 +1,159 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif
+}
+
+
+.div.container {
+  width: 414px; /*iphone 8 plus size*/ 
+  height: 736px;
+}
+
+.nav{
+  background-color: #80ADF1;
+}
+
+.arrow-left {
+  display: flex;
+  flex-flow: row;
+  padding-left: 9px;
+  margin-top: 2px;
+  padding-bottom: 8px;
+}
+
+ul {
+  list-style: none; 
+  padding: 0;
+  margin: 0;
+}
+
+.bus-and-map-container {
+  position: relative;
+  overflow-y: scroll;
+  width: 100%;
+  height: 736px;
+}
+
+.bus-containers {
+  display: flex;
+  flex-flow: row;
+  border-bottom: 1px solid #C1C1C1;
+  background-color: #ffff;
+  padding: 15px 0 2px 0;
+}
+
+.bus-stop-section {
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  background-color: #80ADF1;
+  margin-bottom: 4px;
+  padding: 6px;
+}
+
+.route-icon {
+  width: auto;
+  max-width: 50px;
+  height: auto;
+  max-height: 50px;
+  margin-left: 9px;
+}
+
+.arrow-right {
+  display: inline-block;
+  margin-left: 2px;
+  padding: 9px 0 0 7px;
+}
+
+.bus-info {
+  display: inline-block;
+  padding: 20px 5px 6px 15px;
+  min-width: 200px;
+}
+
+.bus-time {
+  display: inline-block;
+  text-align: left;
+  padding: 15px 0 0 50px;
+  width: 100%;
+}
+
+h1 {
+  position: relative;
+  display: flex;
+  flex-flow: row;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 22px;
+  color: white;
+  background-color: #80ADF1;
+  padding: 4px 0px 0px 116px;
+}
+
+h2 {
+  position: center;
+  display: inline-block;
+  color: #ffff;
+}
+
+h3 {
+  position: relative;
+  display: flex;
+  font-size: 18px;
+  font-weight: bold;
+  color: #6B6B6B;
+  padding-bottom:4px;
+  bottom: 12px;
+}
+
+h4 {
+  position: relative;
+  display: flex;
+  font-size: 16px;
+  color: #6B6B6B;
+  bottom: 10px;
+}
+
+h5 {
+  position: relative;
+  display: inline-block;
+  text-align: left;
+  font-size: 15px;
+  color: #6B6B6B;
+  font-weight: bold;
+  bottom: 12px;
+}
+
+p {
+  position: relative;
+  text-align: left;
+  font-size: 14px;
+  color: #6B6B6B;
+  bottom: 10px;
+}
+
+.Eastbound { 
+  color: #6BD4B5;
+}
+
+.Northbound {
+  color: #3CC2DF;
+}
+
+.Southbound{
+  color: #A07AE1;
+}
+
+.Reroute {
+  color: #FB8484;
+}
+.Westbound {
+  color: #C1C1C1;
+} /*out of service*/
